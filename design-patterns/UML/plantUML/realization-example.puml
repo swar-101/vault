@@ -1,0 +1,13 @@
+
+@startuml
+
+interface Flyable {
+	+fly(): void
+}
+
+class Plane {
+}
+
+Flyable ..|> Plane
+
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+
+class House {
+	- name: String
+	- address: Address
+	- rooms: List<Room>
+}
+
+class Room {
+	- roomType: RoomType
+}
+
+House *-- Room 
+
+@enduml

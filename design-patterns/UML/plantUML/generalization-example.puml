@@ -1,0 +1,16 @@
+@startuml
+
+class Animal {
+	- name: String 
+
+	+ eat(): void 
+	+ breath(): void
+}
+
+class Dog {
+	+ bark()
+}
+
+Animal <|-- Dog
+
+@enduml

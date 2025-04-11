@@ -1,0 +1,15 @@
+@startuml
+
+class Teacher {
+	name: String
+	subject: String
+	student: Student
+}
+
+class Student {
+	name: String
+}
+
+Teacher -- Student: has 
+
+@enduml

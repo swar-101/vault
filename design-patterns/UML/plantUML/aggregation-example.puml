@@ -1,0 +1,16 @@
+@startuml
+
+class Team {
+	- name: String
+	- players: List<Player>
+}
+
+class Player {
+	- name: String
+	- age: int 
+	- position: String
+}
+
+Team o-- Player : groups 
+
+@enduml

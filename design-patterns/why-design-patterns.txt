@@ -1,0 +1,33 @@
+Design Patterns
+
+	Well established software solutions to commonly occurring
+	sofware problems.
+	
+	Book: Gang of Four covers 23 design patterns
+	
+	10 to be covered
+	
+	Better Developer
+	
+	Interview Questions
+	
+	Why learn design patterns?
+		1. Shared vocabulary for engineers & developers.
+		2. Saves a lot of time.
+		3. Commonly asked for interviews.
+	
+	Types:
+	
+		1. Creational Design Patterns
+		2. Structural Design Patterns
+		3. Behavioural Design Patterns
+		
+		
+
+
+
+
+	
+	
+	
+	
