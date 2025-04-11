@@ -7,7 +7,8 @@ import java.util.*;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.stream.*;
 
-public class Main {
+public class Solutions {
+
 
     static List<Employee> employees = List.of(
             new Employee("Sergio Blanco", 31, "1994"),
