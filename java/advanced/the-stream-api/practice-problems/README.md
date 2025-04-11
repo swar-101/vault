@@ -1,4 +1,4 @@
-# Problems
+# 20 Practice Problems to Make You a Stream Machine 🔥
 
 1. **Filtering & Mapping Basics**  
    *Problem:* Given a list of integers, filter out odd numbers and then square each even number.  
