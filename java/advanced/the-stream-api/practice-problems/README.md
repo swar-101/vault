@@ -2,7 +2,10 @@
 
 > 🧠 **Note:** Each problem comes with a *Goal*—because knowing what you're trying to get out of a problem matters. This isn't just practice for the sake of it. The idea is to build real, usable intuition around streams—one concept at a time.
 
-
+1. Go to `/problems/src`. 
+2. Download raw file or copy the contents.
+3. Paste in your local IDE.
+4. Each problem has its own `main()` method you can start playing!
 ---
 
 
