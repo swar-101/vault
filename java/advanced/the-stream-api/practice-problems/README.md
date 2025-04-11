@@ -5,7 +5,9 @@
 1. Go to `/problems/src`. 
 2. Download raw file or copy the contents.
 3. Paste in your local IDE.
-4. Each problem has its own `main()` method you can start playing!
+4. Each problem has its own `main()` method—start by reading the problem statements below 👇 and then begin 
+experimenting!
+
 ---
 
 
