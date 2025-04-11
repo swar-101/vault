@@ -5,8 +5,8 @@
 #### Instructions 
 1. Open ☝️ `/problems/src` in a new tab.
 2. Go to `Problems.java` file. 
-3. Download raw file or copy the contents.
-4. Paste in your local IDE.
+3. Download the raw file or copy its contents.
+4. Paste the file into your local IDE.
 5. Each problem has its own `main()` method—start by reading the problem statements below 👇 and then begin 
 experimenting!
 
