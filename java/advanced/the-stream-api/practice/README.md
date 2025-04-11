@@ -2,7 +2,8 @@
 
 > 🧠 **Note:** Each problem comes with a *Goal*—because knowing what you're trying to get out of a problem matters. This isn't just practice for the sake of it. The idea is to build real, usable intuition around streams—one concept at a time.
 
-1. Open `/problems/src` in a new tab.
+#### Instructions 
+1. Open ☝️ `/problems/src` in a new tab.
 2. Go to `Problems.java` file. 
 3. Download raw file or copy the contents.
 4. Paste in your local IDE.
