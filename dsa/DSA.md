@@ -10,6 +10,9 @@ Topics
 
 	
 - [[Bit Manipulations]]
+	1. [[Bitwise Operators]]
+	2. [[Bitmasking]]
+
 
 - [[Math]]
 	- [[Modular Arithmetic]]
@@ -17,6 +20,8 @@ Topics
 	- [[Prime Numbers]]
 	- [[Combinatorics]]
 	- [[Modular Arithmetic]]
+		- [[Euclidean Algorithm]]
+	
 
 
 Data Structures
