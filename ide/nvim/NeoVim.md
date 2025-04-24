@@ -1,3 +1,10 @@
+
+
+1. [[Installing NeoVim]]
+2. [[Setting up NeoVim like a PRO]] #linux   
+3. [[Setting Up Java Environment using SDKMan]]
+4. [[Setting Up A Spring Boot Project using SpringItUp]]
+
 # So Far
 ## 📄 NeoVim Setup Progress (Windows, Minimal)
 
