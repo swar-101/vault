@@ -1,4 +1,4 @@
-![[7-schema-design-mistakes-to-avoid.pnj.png]]
+![7 Schema Design Mistakes To Avoid Header Image](7-schema-design-mistakes-to-avoid.png)
 # 7 Schema Design Mistakes To Avoid
 
 ## Mistake 1: Storing Business Fields As Primary Key
