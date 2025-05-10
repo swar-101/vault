@@ -2,6 +2,7 @@ Art
 - [[Effective Condition Ordering]]
 - [[Steps For Solving Any Problem Effectively]]
 - [[High Order Functions]] 
+- [[Pandas]] 
 
 
 Topics 

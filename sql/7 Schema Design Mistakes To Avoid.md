@@ -140,11 +140,11 @@ Ideally, each column is meant for one piece of information.
 
 Let's take a look at this `customer` table:
 
-|address_id|name|address|
-|---|---|---|
-|1|Mary|123 Maple Street, Austin, Texas, 73301, USA|
-|2|John|456 Oak Avenue, Denver, Colorado, 80201, USA|
-|3|Yoko|789 Sakura Lane, Tokyo, 100-0001, Japan|
+| address_id | name | address                                      |
+| ---------- | ---- | -------------------------------------------- |
+| 1          | Mary | 123 Maple Street, Austin, Texas, 73301, USA  |
+| 2          | John | 456 Oak Avenue, Denver, Colorado, 80201, USA |
+| 3          | Yoko | 789 Sakura Lane, Tokyo, 100-0001, Japan      |
 
 The `address` field may seem like a single piece of information, but it's not. It includes:
 
@@ -163,11 +163,11 @@ The `address` field may seem like a single piece of information, but it's not. I
 
 It's usually beneficial to store the address as separate fields:
 
-|address_id|name|street_number|street_name_and_type|city|state|zip_code|country|
-|---|---|---|---|---|---|---|---|
-|1|Mary|123|Maple St|Austin|Texas|73301|USA|
-|2|John|456|Oak Ave|Denver|Colorado|80201|USA|
-|3|Yoko|789|Sakura Lane|Tokyo|Tokyo Met.|100-0001|Japan|
+| address_id | name | street_number | street_name_and_type | city   | state      | zip_code | country |
+| ---------- | ---- | ------------- | -------------------- | ------ | ---------- | -------- | ------- |
+| 1          | Mary | 123           | Maple St             | Austin | Texas      | 73301    | USA     |
+| 2          | John | 456           | Oak Ave              | Denver | Colorado   | 80201    | USA     |
+| 3          | Yoko | 789           | Sakura Lane          | Tokyo  | Tokyo Met. | 100-0001 | Japan   |
 
 This allows you to perform validations on different components of the address, such as valid zip code or street type.  
 It also allows you to filter on different components, such as all addresses in a city, without performing string manipulation.
@@ -241,11 +241,11 @@ For storing fields such as the first name of the customer,
 instead of using `VARCHAR(2000)` which is overkill,  
 a limit of 200 or 400 characters is usually enough:
 
-|Field|Data Type|
-|---|---|
-|FirstName|`VARCHAR(200)`|
-||or|
-||`VARCHAR(400)`|
+| Field     | Data Type      |
+| --------- | -------------- |
+| FirstName | `VARCHAR(200)` |
+|           | or             |
+|           | `VARCHAR(400)` |
 
 > Shorter fields = better performance and more accurate data validation.
 
