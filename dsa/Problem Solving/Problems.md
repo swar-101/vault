@@ -6,7 +6,7 @@
 | 2       | [[Number Of Bits]]                                         | Bit Manipulations    |                                |        |
 | 3       | [[Set Bit]]                                                | Bit Manipulations    |                                |        |
 | 4       | [[Unset ith Bit]]                                          | Bit Manipulations    |                                |        |
-| 5       | Power With Modules                                         | Modular Arithmetic   |                                |        |
+| 5       | [[Power With Modules]]                                     | Modular Arithmetic   |                                |        |
 | 6       | Mod Array                                                  | Modular Arithmetic   |                                |        |
 | 7       | Divisibility By 3                                          | Modular Arithmetic   |                                |        |
 | 8       | Elements Removal                                           | Sorting              |                                |        |
@@ -40,10 +40,10 @@
 | 36      | Tree Height                                                | Trees                |                                |        |
 | 37      | Nodes Count                                                | Trees                |                                |        |
 | 38      | Sum Of Nodes Of A Binary<br>Tree                           | Trees                |                                |        |
-| 39      | Max Sum Contiguous <br> Subarray                           | Arrays               |                                |        |
-| 40      | Continuous Sum Query                                       | Arrays               |                                |        |
-| 41      | Rain Water Trap                                            | Arrays               |                                |        |
-| 42      | Sum Of All Submatrices                                     | Arrays               |                                |        |
+| 39      | [[Max Sum Contiguous Subarray]]                            | Arrays               |                                |        |
+| 40      | [[Continuous Sum Query]]                                   | Arrays               |                                |        |
+| 41      | [[Rain Water Trap]]                                        | Arrays               |                                |        |
+| 42      | [[Sum Of All Submatrices]]                                 | Arrays               |                                |        |
 | 43      | Submatrix Sum Queries                                      | Arrays               |                                |        |
 | 44      | Search In A Row-wise and<br>Column-wise Sorter Matrix      | Arrays               |                                |        |
 | 45      | Merge Intervals                                            | Arrays               |                                |        |
@@ -51,9 +51,9 @@
 | 47      | First Missing Integer                                      | Arrays               |                                |        |
 | 48      | Rain Water Trapped                                         | Arrays               |                                |        |
 | 49      | [[Single Number III]]                                      | Bit Manipulations    |                                |        |
-| 50      | Maximum And Pair                                           | Bit Manipulations    |                                |        |
-| 51      | Single Number                                              | Bit Manipulations    |                                |        |
-| 52      | Single Number II                                           | Bit Manipulations    |                                |        |
+| 50      | [[Maximum AND Pair]]                                       | Bit Manipulations    |                                |        |
+| 51      | [[Single Number]]                                          | Bit Manipulations    |                                |        |
+| 52      | [[Single Number II]]                                       | Bit Manipulations    |                                |        |
 | 53      | Prime Modulo Inverse                                       | Modular Arithmetic   |                                |        |
 | 54      | Pair Sum Divisible By M                                    | Modular Arithmetic   |                                |        |
 | 55      | Very Large Power                                           | Modular Arithmetic   |                                |        |
@@ -93,9 +93,9 @@
 | 89      | Longest Consecutive Sequence                               | Hashing              |                                |        |
 | 90      | Count Right Triangles                                      | Geometry & String    |                                |        |
 | 91      | Window String                                              |                      |                                |        |
-| 92      | Flip And Find Nearest                                      | Geometry & String    | Rabin Karp                     |        |
-| 93      | Rabin Karp                                                 | String Manipulations | Rabin Karp                     |        |
-| 94      | Permutations Of A In B                                     | String Manipulations | Rabin Karp                     |        |
+| 92      | Flip And Find Nearest                                      | Geometry & String    | [[Rabin Karp]]                 |        |
+| 93      | Rabin Karp                                                 | String Manipulations | [[Rabin Karp]]                 |        |
+| 94      | Permutations Of A In B                                     | String Manipulations | [[Rabin Karp]]                 |        |
 | 95      | Reverse Linked List                                        | Linked List          |                                |        |
 | 96      | Palindrome List                                            | Linked List          |                                |        |
 | 97      | Remove Loop From Linked <br>List                           | Linked List          | Sorting And Detecting Loop     |        |
@@ -195,3 +195,10 @@
 | 191     | Count Increasing Triplets                                  |                      |                                |        |
 | 192     | Josephus Problem 2                                         |                      |                                |        |
 | 193     | Majority Element                                           |                      |                                |        |
+| 194     | [[Product Array Puzzle]]                                   |                      |                                |        |
+| 195     | [[Subarray With Least Average]]                            | Arrays               | [[Sliding Window Technique]]   |        |
+| 196     | [[Matrix Scalar Product]]                                  | [[Arrays]]           |                                |        |
+| 197     | [[Are Matrices Same]]                                      | [[Arrays]]           |                                |        |
+| 198     | [[Add The Matrices]]                                       | [[Arrays]]           |                                |        |
+| 199     | [[Row To Column Zero]]                                     | [[Arrays]]           |                                |        |
+| 200     |                                                            |                      |                                |        |
