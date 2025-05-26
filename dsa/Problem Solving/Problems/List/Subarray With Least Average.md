@@ -1,7 +1,7 @@
 #easy 
 
 Given an array **A** of size **N**, find the subarray of size **B** with the least average.  
-  
+  .
 > **Problem Constraints**  
 
 1 <= B <= N <= 10<sup>5</sup>

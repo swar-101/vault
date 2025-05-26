@@ -23,7 +23,7 @@ Topics
 	- [[Modular Arithmetic]]
 		- [[Euclidean Algorithm]]
 	
-
+- [[Binary Search]]
 
 Data Structures
 - [[DAWG]]
