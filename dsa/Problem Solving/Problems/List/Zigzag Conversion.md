@@ -1,6 +1,6 @@
 # Zigzag Conversion
 
-- **Difficulty:** #medium  
+- **Difficulty:** #medium🟠  
 - **Tags:** String
 
 >Problem Description

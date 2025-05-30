@@ -1,4 +1,4 @@
-#medium
+#medium🟠
 
 Given an array of positive integers **A**, two integers appear only once, and all other integers appear twice.
 Find the two integers that appear only once and return them in a descending order.

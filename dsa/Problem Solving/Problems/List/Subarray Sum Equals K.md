@@ -1,6 +1,6 @@
 # Subarray Sum Equals K
 
-- **Difficulty:** #medium  
+- **Difficulty:** #medium🟠 
 - **Tags:** Array, Hash Table, Prefix Sum
 
 >Problem Description

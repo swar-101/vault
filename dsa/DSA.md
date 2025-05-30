@@ -7,8 +7,10 @@ Art
 
 Topics 
 - [[Arrays]]
-	- [[Prefix Sum]]
-
+	- [[Prefix Sum Technique]]
+	- [[Two Pointer Technique]]
+	- [[Sliding Window Technique]]
+	- 
 	
 - [[Bit Manipulations]]
 	1. [[Bitwise Operators]]
@@ -41,7 +43,8 @@ Algorithms
 
 
 
-Tools ⚙️🪛
+
+#Tools⚙️🪛
 
 - [VisuAlgo](https://www.visualgo.net) for visualizing how Data Structure works. 
 - [Python Tutor](https://www.pythontutor.com), an Online Compiler, AI Tutor and Visual Debugger for Python, Java, C++ and JavaScript.
