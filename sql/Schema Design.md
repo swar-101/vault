@@ -11,3 +11,11 @@ Sparse Relation
 Relationship Between Tables 
 
 
+## Examples
+
+1. [[Parking Lot Schema Design]]
+2. [[BookMyShow Schema Design]]
+3. [[Quick Commerce Schema Design]]
+
+
+
