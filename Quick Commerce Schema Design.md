@@ -9,9 +9,7 @@ Requirements:
    
    ---
 
-
 ## Solution 
-
 
 1. Many stores have many items.
 2. A store has many delivery partners.
@@ -21,4 +19,89 @@ Requirements:
 6. A delivery has one delivery partners.
 7. A delivery partner can delivery many deliveries.
 8. A store has inventory. 
-9. 
+
+
+table: address
+fields: 
+- id (PK)
+- line1 
+- line2
+- street
+- city
+- zipcode
+- country
+
+
+table: store
+fields: 
+- id (PK)
+- address_id (FK)
+- name
+
+table: user
+fields:
+- id (PK)
+- address_id (FK)
+- name
+- phone_number
+- email
+
+table: item
+fields:
+- id (PK)
+- name
+- type
+- created_at
+- updated_at
+
+table: store_item
+fields: 
+- id (PK)
+- store_id (FK)
+- item_id (FK)
+- quantity
+- created_at 
+- updated_at
+
+table: delivery_partner
+fields:
+- id (PK)
+- name
+- address_id (FK)
+- phone_number
+- email
+- base_store_id (FK)
+
+table: order
+fields: 
+- id (PK)
+- user_id (FK)
+- store_id (FK)
+- delivery_partner_id (FK, nullable)
+- scheduled_time
+- status (enum: PLACED, ASSIGNED, DELIVERED, CANCELLED)
+- total_price
+- created_at
+- updated_at
+
+table: order_item
+fields: 
+- id (PK)
+- order_id (FK)
+- store_item_id (FK)
+- quantity
+
+table: partner_location
+fields: 
+- id (PK)
+- delivery_partner_id (FK)
+- latitude
+- longitude
+- timestamp
+
+table: partner_status
+fields:
+- id (PK)
+- delivery_partner_id (FK)
+- is_online
+- last_updated

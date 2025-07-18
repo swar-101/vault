@@ -39,7 +39,7 @@
 	- Dimensions
 	- Fact Tables
 	- Schema Types
-		- Star Schema
+		- [[Star Schema]]
 		- Snowflake Schema
 		- Galaxy Schema
 	- Slowly Changing Dimensions (SCD)
@@ -57,7 +57,7 @@
 	- Hive Thrift Server 
 	- Thrift Protocol
 	- Abstract Syntax Tree
-	- Map Reduce
+	- [[Map Reduce]]
 	- Legacy Hive: Easy To Learn
 	- Hive On Spark: Better CLI Interface
 6. Store Data Efficiently In Big Data
@@ -126,6 +126,7 @@
 			- FIFO Schedulers
 			- Capacity Scheduling
 			- Fair Scheduling
+			- [[Dominant Resource Fairness]]
 	- Zookeeper
 	- The Block Replication Algorithm
 
@@ -146,6 +147,7 @@
 		- Handling Failures
 		- Scalability And Flexibility
 	- Benefits of YARN
+	- [[Fact and Dimension]]
 	- Resource Allocations And Optimizations
 		- CPU Allocation
 		- Dynamic Resource Allocation
@@ -192,3 +194,7 @@
 		- Understanding Data Pipelines
 		- Setting Up Environment
 		- Using Documentation
+14. AWS Redshift
+	- [[Distribution Styles]]
+	- [[Massively Parallel Processing]] MPP
+	- [[Leader Nodes & Compute Nodes]]

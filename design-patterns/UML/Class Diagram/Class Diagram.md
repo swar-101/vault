@@ -14,3 +14,6 @@
 1. [[Tic Tac Toe Class Diagram]]
 2. [[BookMyShow Class Diagram]]
 3. [[Quick Commerce Class Diagram]]
+4. [[Splitwise Class Diagram]]
+5. [[Scaler Class Diagram]]
+6. [[E commerce App Class Diagram]]
