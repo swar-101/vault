@@ -2,10 +2,12 @@
 # `@EqualsAndHashCode`
 
 ## What is `@EqualsAndHashCode`? 
+
 `@EqualsAndHashCode` is a Lombok annotation used to automatically generate `equals()` and `hashCode()` methods based on the fields in the class. 
 
 By default, Lombok includes all non-static, non-transient fields when generating these methods - unless specified otherwise. 
 
+Note:
 [[Static Fields]] and [[Transient Fields]] are excluded by default — unless explicitly included.
 
 		
@@ -25,7 +27,7 @@ User u2 = new User("Swar", "swar@example.com");
 // Without equals() and hashCode() overridden 
 System.out.println(u1.equals(u2)); // false
 
-// With @EqualsHashCode
+// Overriding with Lombok's @EqualsHashCode
 System.out.println(u1.equals(u1)); // true
 ```
 
@@ -41,7 +43,7 @@ You can customize which fields are included using:
 @EqualsAndHashCode(of = "email")
 ```
 
-```java
+		```java
 // including multiple fields
 @EqualsAndHashCode(of  = {"username", "email"})
 ```
@@ -153,6 +155,20 @@ If such an object is stored in a hash-based collection and then the state field 
 you know you want the entity to uniquely identify objects based on their superclass-defined identity fields during equality operations using `equals()`.
 ### Don't use when... 
 you're unsure whether your class fields clearly fall into [[Identity Fields]] or [[State Fields]] — though in practice, this is rarely the case.
+
+
+
+
+# Cheat Sheet to use `@EqualsAndHashCode()` correctly 
+
+#cheatSheet
+
+| Annotation                                          | Behavior                                                               |
+| --------------------------------------------------- | ---------------------------------------------------------------------- |
+| `@EqualsAndHashCode`                                | Includes all fields (bad for JPA)                                      |
+| `@EqualsAndHashCode(callSuper = true)`              | Includes all fields + Superclass fields                                |
+| `@EqualsAndHashCode(onlyExplicitlyIncluded = true)` | Includes only what you explicitly mark with `@Include` (best with JPA) |
+
 
 
 
