@@ -1,4 +1,4 @@
-Alright Swar, I’m dialing in the _20 most impactful problems_ from your list to turbocharge your prep. I’m focusing on problems that hit the core patterns and are staples in interviews or competitive programming — stuff that’ll boost your pattern recognition and problem-solving power fast.
+	Alright Swar, I’m dialing in the _20 most impactful problems_ from your list to turbocharge your prep. I’m focusing on problems that hit the core patterns and are staples in interviews or competitive programming — stuff that’ll boost your pattern recognition and problem-solving power fast.
 
 ---
 
