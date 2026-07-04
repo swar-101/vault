@@ -38,11 +38,12 @@ Let's explore how we can use this bitmask to manipulate our binary number at pos
 
 To check if the bit is present at position 2, we simply use the Bitwise AND `&` operator between the `binaryNumber` and our `bitmask` and check if the result is 0. Why? Because the Bitwise AND operator returns 1 only if there is a 1 at the corresponding position. If the bit is not present (like in our case), the result will be 0, as shown below:
 
-| Operation         | Bit 4 | Bit 3 | Bit 2 | Bit 1 | Bit 0 |
-|-------------------|:-----:|:-----:|:-----:|:-----:|:-----:|
-| Binary Number     |   1   |   0   |   0   |   0   |   0   |
-| Bitmask           |   0   |   0   |   1   |   0   |   0   |
-| **Result (AND)**  |   0   |   0   |   0   |   0   |   0   |
+| Operation        | Bit 4 | Bit 3 | Bit 2 | Bit 1 | Bit 0 |
+| ---------------- | :---: | :---: | :---: | :---: | :---: |
+| Binary Number    |   1   |   0   |   0   |   0   |   0   |
+| Bitmask          |   0   |   0   |   1   |   0   |   0   |
+| **Result (AND)** |   0   |   0   |   0   |   0   |   0   |
+|                  |       |       |       |       |       |
 
 Programmatically:
 ```java
@@ -95,6 +96,7 @@ To clear a bit in our binary number, we ensure that the bit at that position bec
 | --------------- | :---: | :---: | :---: | :---: | :---: |
 | Binary Number   |   1   |   0   |   0   |   0   |   0   |
 | Bitmask         |   0   |   0   |   1   |   0   |   0   |
+| Flipped Bitmask |   1   |   1   |   0   |   1   |   1   |
 | **Result (OR)** |   1   |   0   |   1   |   0   |   0   |
 
 Programmatically:

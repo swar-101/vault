@@ -1,7 +1,22 @@
-1. Prefix Sum 
-2. Two Pointer
-3. Carry Forward
-4. Sub Arrays
-5. 2D Arrays
-6. Sliding Window
-7. Popular Interview Questions
+
+## Primitives
+
+1. In-place Filtering 
+2. Two Pointer Swap 
+3. Prefix Sum Construction
+
+## Patterns
+
+## Algorithms 
+
+## Concepts 
+	
+
+
+4. Prefix Sum 
+5. Two Pointer
+6. Carry Forward
+7. Sub Arrays
+8. 2D Arrays
+9. Sliding Window
+10. Popular Interview Questions
