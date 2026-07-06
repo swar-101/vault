@@ -9,21 +9,26 @@
 ## Primitives
 
 1. [[XOR Cancellation]]
-2. [[Rightmost Set Bit]]
-3. [[Bit Masking]]
-4. [[Brian Kernighan's Method]]
+2. [[Masking]]
+3. [[Bit Test]]
+4. [[Bit Commitment]]
+5. [[Rightmost Set Bit]]
+6. [[Bit Masking]]
+7. [[Brian Kernighan's Method]]
 
 ## Patterns 
 
 1. [[Partition by Bit]]
-2. [[Bit Counting]]
-3. [[State Compression]]
-4. [[Meet-in-the-middle]]
+2. [[Greedy Bit Construction]]
+3. [[Bit Counting]]
+4. [[State Compression]]
+5. [[Meet-in-the-middle]]
 
 
 ## Algorithms 
 
 1. [[Brian Kernighan's Algorithm]]
+2. [[Maximum AND Pair]]
 ## Concepts 
 
  1. [[Mersenne Numbers]]

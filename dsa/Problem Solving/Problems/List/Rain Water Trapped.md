@@ -1,3 +1,5 @@
+Pattern: [[Prefix, Suffix Precomputation]]
+
 
 #medium🟠 
 
@@ -21,19 +23,18 @@ Your task is to calculate the total amount of water that can be trapped in these
 
 ### Solution
 
+There are two known solutions: 
+
+1. Using [[Prefix, Suffix Precomputation]]
+2. Using [[Two Pointer Approach]]
+
 
 
 Example: 
 
 A = [5, 4, 1, 4, 3, 2, 7]
 
-
 A = [1, 2, 1, 4]
-
-
-
-```java
-```
 
 
 

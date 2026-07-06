@@ -1,3 +1,13 @@
+
+# Problem: Continuous Sum Query / Beggars Outside Temple 
+## Related
+
+Primitive:
+- [[Running Sum]]
+
+Pattern:
+- [[Difference Array]]
+
 There are **A** beggars sitting in a row outside a temple.
 Each beggar initially has an empty pot.
 When the devotees come to the temple, they donate some amount of coins to these beggars. Each devotee gives a fixed amount of coin (according to their faith and ability) to some K beggars sitting next to each other. 
@@ -10,6 +20,9 @@ Find out the final amount of money in each beggar's pot at the end of the day, p
 For the i<sup>th</sup> devotee `B[i][0]=L`, `B[i][2]=P`, given by the 2D Array array B.
 
 ---
+### Recognition
+
+Multiple range updates followed by one final reconstruction.
 ## Solution 
 
 A = 5
@@ -37,7 +50,7 @@ A = Number Of Beggars
 
 
 ```java
-List<Integer> amountsRecieved = new ArrayList<>(Collections.nCopies(A, 0));
+List<Integer> amountsReceived = new ArrayList<>(Collections.nCopies(A, 0));
 
 for (int i = 0; i < B.size(); i++) {
 	int l = B.get(i).get(0) - 1;
@@ -45,38 +58,38 @@ for (int i = 0; i < B.size(); i++) {
 	int p = B.get(i).get(2);
 
 	for (int j = l; int j <= r; j++) {
-		if (amountsRecieved.get(j) == null) {
-			amountsRecieved.add(p);
+		if (amountsReceived.get(j) == null) {
+			amountsReceived.add(p);
 		} else {
-			amountsRecieved.get(j).set(j + p);
+			amountsReceived.get(j).set(j + p);
 		}
 	}
 }
 
-return amountsRecieved
+return amountsReceived
 ```
 
 
 This solution is not optimal. The complexity of this solution is O(n\*q). We can do it in linear time. 
 
 
-### Optimized Solution: Using difference array and prefix sum 
+### Optimized Solution: Difference Array + Running Sum
 
 `A = 5`
 `B = [[1, 2, 10], [2, 3, 20], [2, 5, 25]]`
 
 0. We initialize a new array with size A and all elements as 0.
 1. We update P only at the left index positively and the rest of them are still 0. i.e. B[L] = P
-2. The index after the right limit we update it negatively. i.e. B[R] = -P
+2. Mark the index immediately after the right boundary negatively.  
+	diff[R + 1] -= P
 
+We mark where each donation starts and where its effect ends. A running sum reconstructs the final amount for every beggar.
 
-This will enable us to set checkpoints that will enable our prefix sum to update the indices only until the required range. 
++P → donation starts
 
-Let's say there are two queries: 
-`[[L, R, P], [R+1, C, M]]`
+-P → donation stops
 
-The prefix sum of the range from L to R would P. 
-The prefix sum of the range from R+1 to C would be -P + P + M = M.
+The running sum naturally applies the donation to every beggar in between.
 
 ### Code : 
 
@@ -97,8 +110,18 @@ for (int i = 0; i < B.size(); i++) {
 int sum = 0;
 for (int i = 0; i < amountsReceived.size(); i++) {
 	sum += amountsReceived.get(i);
-	amountsRecieved.set(i, sum);
+	amountsReceived.set(i, sum);
 }
 
 return amountsReceived;
 ```
+
+### Complexity
+
+Brute Force:
+Time: O(Q × N)
+Space: O(N)
+
+Optimized:
+Time: O(Q + N)
+Space: O(N)

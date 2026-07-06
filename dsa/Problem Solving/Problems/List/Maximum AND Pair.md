@@ -1,6 +1,11 @@
-Given an array A. For every pair of indices i and j (i != j), find the maximum A[i] & A[j]
+# Maximum AND Pair
 
+#implicitOptimization #greedy #greedyBitConstruction
 
+---
+
+Given an array A. 
+For every pair of indices i and j (i != j), find the maximum A[i] & A[j]
 
 
 > Problem Constraints: 

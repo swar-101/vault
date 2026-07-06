@@ -42,7 +42,7 @@
 | 38      | Sum Of Nodes Of A Binary<br>Tree                           | Trees                |                                |        |
 | 39      | [[Max Sum Contiguous Subarray]]                            | Arrays               |                                |        |
 | 40      | [[Continuous Sum Query]]                                   | Arrays               |                                |        |
-| 41      | [[Rain Water Trap]]                                        | Arrays               |                                |        |
+| 41      | [[Rain Water Trapped]]                                        | Arrays               |                                |        |
 | 42      | [[Sum Of All Submatrices]]                                 | Arrays               |                                |        |
 | 43      | Submatrix Sum Queries                                      | Arrays               |                                |        |
 | 44      | Search In A Row-wise and<br>Column-wise Sorter Matrix      | Arrays               |                                |        |
